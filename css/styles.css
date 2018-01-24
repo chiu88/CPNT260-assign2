@@ -55,7 +55,6 @@ header .logo {
     width: 150px;
     background-size: cover;
     background-position: center;
-    opacity: .9;
     border-radius: 50px;
     text-align: center;
 
@@ -199,12 +198,12 @@ header .logo {
 
 .hero {
     height: 100vh;
-    background-color: #999;
-    background-image: url('../rock-lee.png');
+    background-color: black;
+    background-image: url('../suprhiro-hero.png');
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    opacity: .5;
+    border-top: 5px solid black;
 
 
 }
